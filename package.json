@@ -4,7 +4,7 @@
   "description": "This is a homely app",
   "main": "index.js",
   "scripts": {
-    "test": "postman"
+    "test": "postman",
     "start": "node server.js"
   },
   "author": "Adehor Chika Jennifer",
