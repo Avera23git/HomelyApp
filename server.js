@@ -16,7 +16,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors(
     {
-        origin: 'https://r2jh5q39-5173.uks1.devtunnels.ms/',
+        origin: 'https://homely-properties-ks9x.vercel.app/',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         Credential: true,
     }
