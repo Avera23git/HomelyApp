@@ -4,8 +4,7 @@ const connectDB = async () => {
   try {
     // to ensure the URI is correctly referenced from the environment variables
     await mongoose.connect(process.env.MONGODB_URI, {
-      
-      dbName: 'homelyapp' 
+      dbName: 'homelyapp'
     });
     console.log("MongoDB connected...");
   } catch (err) {
