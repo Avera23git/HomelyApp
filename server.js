@@ -16,7 +16,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors(
     {
-        origin: 'https://homely-properties-ks9x.vercel.app/',
+        origin: 'https://homely-properties-ks9x.vercel.app',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         Credential: true,
     }
